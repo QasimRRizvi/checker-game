@@ -1,18 +1,18 @@
 'use client';
 
 import Head from 'next/head';
-import GameModes from '@/components/GameModes';
+import BoardDesign from '@/components/BoardDesign';
 
-export default function Home() {
+export default function Board() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-center p-24'>
       <div>
         <Head>
-          <title>Checkers Game</title>
+          <title>Checkers Game | Board</title>
           <link rel='icon' href='/favicon.ico' />
         </Head>
         <main>
-          <GameModes />
+          <BoardDesign />
         </main>
       </div>
     </main>
